@@ -1,0 +1,27 @@
+.head {
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first {
+    display: flex;
+    flex: 1 1 0;
+    margin: 48px;
+    justify-content: space-between;
+}
+.secondheader {
+    text-align: center;
+}
+.imageholder {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    
+}
+img {
+    width: 100px;
+    height: 100px;
+}
