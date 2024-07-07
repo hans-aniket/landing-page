@@ -1,6 +1,12 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0
+}
+.firstdiv {
+    background-color: #1F2937;
+    color: white;
+    
 }
 .head {
     padding-left: 48px;
@@ -9,6 +15,14 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.leftie {
+    font-weight: bold;
+}
+.secondsmallhead {
+    display: flex;
+    gap: 16px;
+}
+
 .first {
     display: flex;
     flex: 1 1 0;
