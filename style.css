@@ -9,6 +9,7 @@ body {
     
 }
 .head {
+    
     padding-left: 48px;
     padding-right: 48px;
     display: flex;
@@ -17,10 +18,19 @@ body {
 }
 .leftie {
     font-weight: bold;
+    padding-top: 16px;
 }
 .secondsmallhead {
     display: flex;
     gap: 16px;
+    padding: 16px;
+}
+.secondbox {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
 }
 
 .first {
@@ -32,11 +42,16 @@ body {
 .seconddiv {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    height: 400px;
 
 }
 .secondheader {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 36px;
+    height: 100px;
 }
 .imageholder {
     display: flex;
@@ -45,10 +60,62 @@ body {
     justify-content: center;
     
 }
+.boxtext {
+    width: 100px;
+}
 img {
     width: 100px;
     height: 100px;
+    border-radius: 12px;
+    border: #093b81 solid;
+    border-color: dodgerblue;
 }
-.boxtext {
+.thirddiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+.quote {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font: #1f2937;
+}
+.author {
+ font-weight: bold;
+}
+.fourthdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.childdivofthird {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 900px;
+    gap: 100px;
+    margin: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+}
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 12px;
     width: 100px;
+    height: 30px;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
